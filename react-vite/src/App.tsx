@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
+  let width:string="400px";
+  let height:string="300px";
   const [count, setCount] = useState(0)
 
   return (
@@ -17,7 +19,7 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
-      <h2>Hola</h2>
+      <h2>by Carmen Fernandez</h2>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
@@ -29,6 +31,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <img src="/imagen.jpg" width={width} height={height} alt="imagen de ejemplo"></img>
     </>
   )
 }

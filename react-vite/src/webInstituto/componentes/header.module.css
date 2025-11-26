@@ -1,0 +1,15 @@
+header{
+    width:100%;
+    height:350px;
+    background: linear-gradient(rgb(255, 255, 255) 10%, transparent 90%),  url('/imagen.jpg') no-repeat center center;
+    background-size: cover;
+
+    /* Para centrar el contenido del header */
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    align-items: center;
+
+    /* Color del texto */
+    color: black;
+}

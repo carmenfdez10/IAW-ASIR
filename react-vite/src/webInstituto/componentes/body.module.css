@@ -1,0 +1,30 @@
+<<<<<<< HEAD
+.main {
+    width: 100%;
+    min-height: 400px;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardsContainer {
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    width: 1000px;
+    
+}
+
+.aside {
+    align-items: left;
+}
+=======
+main{
+    width:100%;
+    height:400px;
+    background-color: blueviolet;
+    
+}
+>>>>>>> 14c21578e1accc0b391f1cef1fad505c55d7d96c
